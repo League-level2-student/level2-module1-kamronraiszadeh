@@ -52,7 +52,7 @@ public class GuestBook implements ActionListener {
 			array.add(save);
 		}
 		if (button2==e.getSource()) {
-			JOptionPane.showMessageDialog(null, "Guest#1: Bob Banders Guest#2: Sandy Summers Guest#3: Greg Ganders Guest#4: Donny Doners");
+			JOptionPane.showMessageDialog(null, array);
 			
 		}
 	}
